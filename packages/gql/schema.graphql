@@ -1,0 +1,9 @@
+type Query {
+  _empty: String
+  users: [User!]
+}
+
+type User {
+  id: ID!
+  name: String!
+}

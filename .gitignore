@@ -1,0 +1,18 @@
+.DS_Store
+node_modules
+.turbo
+*.log
+dist
+dist-ssr
+*.local
+.env
+.cache
+server/dist
+public/dist
+
+# generated code
+**/__generated__/**
+
+*vscode
+
+todo

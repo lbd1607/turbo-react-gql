@@ -1,0 +1,43 @@
+{
+  "author": "Laura Davis",
+  "name": "my-app",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --port 4200 --clearScreen false",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "lint": "eslint \"src/**/*.ts\"",
+    "relay": "relay-compiler"
+  },
+  "dependencies": {
+    "@repo/gql": "*",
+    "next": "^14.1.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-relay": "^18.1.0",
+    "react-router-dom": "^6.10.0"
+  },
+  "devDependencies": {
+    "@next/eslint-plugin-next": "^14.1.1",
+    "@repo/eslint-config": "*",
+    "@repo/gql": "*",
+    "@repo/tailwind-config": "*",
+    "@repo/typescript-config": "*",
+    "@types/node": "^20.11.24",
+    "@types/react": "^18.2.61",
+    "@types/react-dom": "^18.2.19",
+    "@vitejs/plugin-react": "^4.3.3",
+    "autoprefixer": "^10.4.20",
+    "babel-plugin-relay": "^18.1.0",
+    "eslint": "^8.57.0",
+    "postcss": "^8.4.49",
+    "prettier": "^3.3.3",
+    "relay-compiler": "^18.1.0",
+    "tailwindcss": "^3.4.17",
+    "typescript": "5.5.4",
+    "vite": "^5.1.4",
+    "vite-plugin-relay": "^2.1.0"
+  }
+}
